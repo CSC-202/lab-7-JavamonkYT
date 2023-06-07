@@ -1,5 +1,5 @@
 # huffman-analysis.py
-## author - nick s.
+## author - Gregory L.
 ### get huffman.py working first, then work on this file
 
 import matplotlib.pyplot as plt
@@ -132,7 +132,7 @@ def huffman(message:str) -> float:
 
 
 
-'''
+
 # LYRICS
 plt.subplot(2, 1, 1)
 plt.suptitle('Lab 7 - Leathrum Analyzing Huffman')
@@ -224,3 +224,4 @@ coding = dict()
 _, _, ratio = huffman(rickandmorty)
 print("Rick And Morty:", coding)
 print("Ratio:", ratio)
+'''
